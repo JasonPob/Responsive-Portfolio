@@ -242,9 +242,44 @@ width:100%;
     width: 100%;
     padding: 20px;
   }
+  #masthead {
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
 #main-container, .main-section{
 width:100%;
 }
+#logo{
+  width:100%;
+}
+nav{
+  position: static;
+  width:100%;
+  margin-top: 25px;
+  text-align:center;
+}
+.main-section {
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
+}
+.work{
+  text-align: center;
+  width:100%;
+}
 }
 }
